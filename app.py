@@ -14,6 +14,9 @@ from io import BytesIO
 from PIL import Image
 import tensorflow as tf
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 ###### Chargement des données ######
 
 #Chargement des modèles : 
